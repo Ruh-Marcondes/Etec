@@ -1,0 +1,35 @@
+body{
+   background-image:url("imagens/cinema.jpg");
+}
+navp
+{
+    height: 80px;
+    
+}
+
+a
+{
+  text-decoration: none;  
+  
+}
+#bomb
+{
+padding-left:30px;
+text-decoration: none;
+color: #d500f9;
+}
+#kaka{
+    float: left;
+}
+#kiri{
+    float: right;
+}
+#lo{
+    font-family: Verdana;
+    text-decoration: navy;
+    color:#d500f9;
+}
+#RN 
+{
+    text-decoration: none;
+}

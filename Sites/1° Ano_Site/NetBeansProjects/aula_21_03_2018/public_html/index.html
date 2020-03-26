@@ -1,0 +1,101 @@
+.<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Kakashi </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Faça seu cadastro</h1>
+            <form>
+                <p>
+                    <label>
+                        Nome de Usuário:
+                    </label>
+                    <input type="text" name="usuario" maxlength="10" placeholder="máximo 10 caracteres"/>              
+                </p>
+                <p>
+                    <label>
+                         Senha:
+                    </label>
+                    <input type="password" maxlength="6" placeholder="máximo 6 caracteres" />
+                    
+                </p>
+                <p>
+                    <label> 
+                        Nome Completo:
+                    </label>
+                        
+                        <input type="text" name="nome" size="60" />
+                </p>
+                <p>
+                    <label> 
+                        Endereço:
+                    </label>
+                        
+                    <input type="text" name="endereco" size="60" />
+                </p>
+                <p>
+                    <label> 
+                        Cidade:
+                    </label>
+                        
+                    <input type="text" name="cidade" size="30" />
+                    <label>
+                        UF:
+                    </label>
+                     <select name="estados">
+                            <option>SP</option>
+                            <option>RJ</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>CE</option>
+                            <option>RS</option>
+                            <option>BA</option>
+                            <option>RO</option>
+                        </select>
+                </p>
+                <p>
+                    <label>
+                        Telefone Residencial:
+                    </label>
+                    <input type="tel" name="telRes" size="15"
+                           placeholder=" (xx)xxxx-xxxx"/>
+                </p>
+                   <p>
+                    <label>
+                        Telefone Celular:
+                    </label>
+                    <input type="tel" name="telCel" size="15"
+                           placeholder=" (xx)xxxx-xxxx"/>
+                </p>
+                <p>
+                    <label>
+                        Email:
+                    </label>
+                    <input type="email" name="email" size="95" placeholder="mosaico@exemplo.com.br"/>
+                </p>
+                <p>
+                    <label>
+                        Números de Filhos:
+                    </label>
+                    <input type="number" name="filhos" min="0" max="20" step="1"/>
+                <label>
+                        Data de Nascimento:
+                    </label>
+                    <input type="date" name="data"/>
+                </p>
+                <p>
+                    <input type="submit" name="enviar" value="ENVIAR"/>
+                    <input type="reset" name="limpar" value="LIMPAR"/>
+                </p>
+               
+            </form>
+        
+        </div>
+    </body>
+</html>

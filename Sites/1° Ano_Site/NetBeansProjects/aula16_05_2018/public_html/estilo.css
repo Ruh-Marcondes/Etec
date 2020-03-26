@@ -1,0 +1,44 @@
+body{
+    font: 90% verdana,times new romam, Arial;
+    background: #3399ff;
+    padding:10px;
+    font-variant: small-caps;
+}
+#site{
+    width: 80%;
+    background: #ffccff;
+    margin: 0 auto;
+    text-align: center;     
+}
+#cabec{
+    font: arial,times new romam, sans-serif;
+    background: brown;
+    color:white;
+}
+#menu{
+    text-align:left ;
+    whith: 20%;
+    float: left;
+    background: #99ff99;
+}
+#conteudo{
+    text-align: justify;
+    width:59%;
+    float:left;
+    background: white;
+    padding: 10px;
+}
+#auxiliar{
+    width: 20%;
+    width: 20.99%;
+    float: left;
+    background: #cc99ff;
+}
+#rodape{
+    text-align: center;
+    clear: both;
+    background: brown;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px 20px 0px ;
+}

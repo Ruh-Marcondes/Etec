@@ -1,0 +1,27 @@
+body{
+    background-image: url(../imagem/p.jpg);
+    /*background-color:#87CEEB;*/
+    padding-top:50px;
+    background-repeat: repeat;/* não há imagens*/    
+     
+}
+H1{
+    color:#000080;
+   font-size: 30PX;
+   font-family:Arial Black,Times New Roman,serif;
+   margin:10px; 
+}
+.meuEstilo{
+    color:#2F4F4F;
+    padding:10px; 
+    font-family:Verdana,Times new Roman, Sefrif;
+    font-size:22px;
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid  black;
+    border-top: 2px solid black;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    text-align: center;/*justify=justificado,center=centralizado*/
+}
