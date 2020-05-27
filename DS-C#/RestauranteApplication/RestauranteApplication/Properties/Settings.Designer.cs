@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DominioRestaurante.Properties
+namespace RestauranteApplication.Properties
 {
 
 

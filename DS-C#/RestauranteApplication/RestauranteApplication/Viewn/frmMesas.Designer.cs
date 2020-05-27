@@ -1,6 +1,6 @@
-﻿namespace DominioRestaurante
+﻿namespace RestauranteApplication.Viewn
 {
-    partial class FrmClients
+    partial class frmMesas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FrmClients
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "FrmClients";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-
+            this.Text = "frmMesas";
         }
 
         #endregion
     }
 }
-

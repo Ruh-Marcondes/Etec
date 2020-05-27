@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DominioRestaurante
+namespace RestauranteApplication
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace DominioRestaurante
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmClients());
+            Application.Run(new frmCliente());
         }
     }
 }

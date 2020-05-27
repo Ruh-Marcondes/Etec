@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DominioRestaurante
+namespace RestauranteApplication.Viewn
 {
-    public partial class FrmClients : Form
+    public partial class frmMesas : Form
     {
-        public FrmClients()
+        public frmMesas()
         {
             InitializeComponent();
         }
