@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="RestauranteApplication.frmCliente" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="RestauranteApplication.frmCliente">
+    <Position X="0.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AACgAAQAASACABAAABCQEAACAAAAAAABAAAAAQAIAAA=</HashCode>
+      <HashCode>AACgAAQAASACABAAABCQFAACAAAAAAABAAAAAQAIAAA=</HashCode>
       <FileName>Viewn\frmCliente.cs</FileName>
     </TypeIdentifier>
   </Class>

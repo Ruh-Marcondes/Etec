@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RestauranteApplication.Viewn
 {
-    public partial class frmMesas : Form
+    public partial class frmFuncionario : Form
     {
-        public frmMesas()
+        public frmFuncionario()
         {
             InitializeComponent();
         }
