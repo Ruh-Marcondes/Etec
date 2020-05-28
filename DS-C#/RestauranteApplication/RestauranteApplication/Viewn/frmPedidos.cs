@@ -16,5 +16,10 @@ namespace RestauranteApplication.Viewn
         {
             InitializeComponent();
         }
+
+        private void frmPedidos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
