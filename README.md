@@ -1,33 +1,33 @@
 # Projetos Desenvolvidos na Etec
 
-# Etec Pedro Ferreira Alves - Moji Mirim
+## Etec Pedro Ferreira Alves - Moji Mirim
 
-## Turma Eminfo (2018)
+### Turma Eminfo (2018)
 
-### 1° Ano
+###  1° Ano
 
  
 
-1° Ano_Site - Sites Desenvolvidos no primeiro ano 
+* 1° Ano_Site - Sites Desenvolvidos no primeiro ano 
 
-OSA (OPERAÇÃO DE SOFTWARE APLICATIVO)
+* OSA (OPERAÇÃO DE SOFTWARE APLICATIVO)
 
-IMC (INSTALAÇÃO E MANUTENÇÃO DE COMPUTADORES)
+* IMC (INSTALAÇÃO E MANUTENÇÃO DE COMPUTADORES)
 
-Java (Inclui - LP [Lógica de Programação])
+* Java (Inclui - LP (Lógica de Programação))
 
-1° Ano_TLBD (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS | )
+* 1° Ano_TLBD (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS I )
 
-2° Ano 
+### 2° Ano 
 
-2° Ano_Site - Sites Desenvolvidos no segundo ano 
+* 2° Ano_Site - Sites Desenvolvidos no segundo ano 
 
-AS (Análise de Sistema )
+* AS (Análise de Sistema )
 
-Empi (Emprederismo e Inovação)
+* Empi (Emprederismo e Inovação)
 
-Java (Inclui LPOO [Lógica de Programação Orientada a Objeto])
+* Java (Inclui LPOO (Lógica de Programação Orientada a Objeto))
 
-TLBD | |   (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS | | )
+TLBD II   (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS II )
 
-3° Ano
+### 3° Ano
