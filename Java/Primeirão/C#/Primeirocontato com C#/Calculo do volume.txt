@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double raio, altura, volume;
+            Console.WriteLine("Qual é o raio?");
+            raio = double.Parse(Console.ReadLine());
+            Console.WriteLine("Qual é a altura?");
+            altura = double.Parse(Console.ReadLine());
+            volume = 3.14 * (raio * raio) * altura;
+            Console.WriteLine("O volume é: " + volume);
+            Console.ReadKey();
+        }
+    }
+}

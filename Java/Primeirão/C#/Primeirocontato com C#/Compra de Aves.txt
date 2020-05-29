@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double nrAves, custo;
+            Console.WriteLine("Qual é o número de aves compradas?");
+            nrAves = double.Parse(Console.ReadLine());
+            custo = (nrAves * 0.30) / 15 + 10;
+            Console.WriteLine("O custo das aves compradas é: " + custo);
+            Console.ReadKey();
+        }
+    }
+}

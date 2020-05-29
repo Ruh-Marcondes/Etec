@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double diametro, raio, area;
+            Console.WriteLine("Qual o diametro do circunfêrencia:");
+            diametro = double.Parse(Console.ReadLine());
+            raio = diametro / 2;
+            area = raio*raio*3.14;
+            Console.WriteLine("A área da circunferência é: " + area);
+            Console.ReadKey();
+        }
+    }
+}

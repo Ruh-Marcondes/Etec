@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a, b, c, d, soma;
+            Console.WriteLine("Digite um número");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite um número");
+            b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite um número");
+            c = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite um número");
+            d = double.Parse(Console.ReadLine());
+            soma = a + b + c + d;
+            Console.WriteLine("A soma de todos os números é " + soma);
+            Console.ReadKey();
+        }
+    }
+}

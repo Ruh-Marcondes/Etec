@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ex6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double peso, altura, imc;
+            Console.WriteLine("Qual é o peso?");
+            peso = double.Parse(Console.ReadLine());
+            Console.WriteLine("Qual é a altura?");
+            altura = double.Parse(Console.ReadLine());
+            imc = peso / altura*altura;
+            Console.WriteLine("O índice de massa corpórea é: " + imc);
+            Console.ReadKey();
+        }
+    }
+}

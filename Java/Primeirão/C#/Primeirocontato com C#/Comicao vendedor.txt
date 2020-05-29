@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double preco, quant,idVendedor , comisao;
+            Console.WriteLine("Qual a identificao do vendedor ");
+            idVendedor = double.Parse(Console.ReadLine());
+            Console.WriteLine("Qual a quantidade vendida: ");
+            quant = double.Parse(Console.ReadLine());
+            Console.WriteLine("Qual o preço do produto: ");
+            preco = double.Parse(Console.ReadLine());
+            comisao = quant * preco * 5 / 100; 
+            Console.WriteLine("a comisao do vendeor é " + comisao);
+            Console.ReadKey();
+        }
+    }
+}

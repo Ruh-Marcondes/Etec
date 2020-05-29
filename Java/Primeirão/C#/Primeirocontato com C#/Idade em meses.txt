@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exe10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int idade, idMeses;
+            Console.WriteLine("Digite a idade:");
+            idade = int.Parse(Console.ReadLine());
+            idMeses = idade * 12;
+            Console.WriteLine("Sua idade em meses é " + idMeses);
+            Console.ReadKey();
+        }
+    }
+}

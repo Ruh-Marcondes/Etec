@@ -1,0 +1,62 @@
+	namespace estruturas
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // do; while//
+            int opcao = 0;
+            do
+            {
+                Console.WriteLine("Aperte uma tecla");
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine("1.. Café");
+                Console.WriteLine("2.. Leite");
+                Console.WriteLine("3.. SAIR");
+                Console.WriteLine("Escolha sua opcao: ");
+                opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
+                {
+                    case 1:
+                        Console.WriteLine("Escolheu café");
+                        Console.WriteLine("Valor 3,50");
+                        break;
+                    case 2:
+                        Console.WriteLine("Escolheu Leite");
+                        Console.WriteLine("Valor 4,50");
+                        break;
+                    case 3:
+                        Console.WriteLine("Passe no caixa");
+                        Console.WriteLine("FIM");
+                        break;
+                    default:
+                        Console.WriteLine("Opcao Invalida");
+                        break;
+                }
+            } while (opcao != 3);
+
+
+
+            // While//
+
+            Console.Clear();
+            
+                Console.WriteLine("Somatória de todos os pares");
+                Console.WriteLine("Entre ZERO e o número PAR entrado");
+                int num = 0;
+                int soma = 0;
+                Console.WriteLine("Entre com um valor");
+                num = int.Parse(Console.ReadLine());
+                int cont = 0;
+                while (num % 2 == 0 && cont <= num)
+                {
+                    soma = soma + cont;
+                    cont = cont + 2;
+                }
+                Console.WriteLine("Somatória: " + soma);
+                Console.ReadKey(true);
+            }
+        }
+    }
+

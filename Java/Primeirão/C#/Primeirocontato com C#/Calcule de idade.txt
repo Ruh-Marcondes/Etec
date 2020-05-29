@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int anoNasc, anoAtual = 					System.Console.Date.Now.Year, idade;
+            Console.WriteLine("Qual o ano de nascimento?");
+            anoNasc = int.Parse(Console.ReadLine());
+            idade = anoAtual - anoNasc;
+            Console.WriteLine("A idade é: " + idade);
+            Console.ReadKey();
+
+        }
+    }
+}

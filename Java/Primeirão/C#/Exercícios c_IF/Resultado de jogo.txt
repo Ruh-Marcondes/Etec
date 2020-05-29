@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ex6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String time1, time2, resultado;
+            int gol1, gol2;
+            Console.WriteLine("Qual o nome do time: ");
+            time1 = Console.ReadLine();
+            Console.WriteLine("Qual o nome do outro time: ");
+            time2 = Console.ReadLine();
+            Console.WriteLine("Qual a quantidade de gols do time " + time1);
+            gol1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Qual a quantidade de gols do time " + time2);
+            gol2 = int.Parse(Console.ReadLine());
+            if (gol1 > gol2)
+            {
+                resultado = time1 + "VENCEU";
+            }
+            else
+            {
+                if (gol1 == gol2)
+                {
+                    resultado = "JOGO EMPATADO";
+                }
+                else
+                {
+                    resultado = time2 + "VENCEU";
+                }
+            }
+            Console.WriteLine(time1 + " X " + time2);
+            Console.WriteLine("Resultado: " + resultado);
+
+            Console.Write("Pressione qualquer tecla para <SAIR>");
+            Console.ReadKey(true);
+
+        }
+    }
+}
