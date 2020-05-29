@@ -2,6 +2,8 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/47475949/83263593-40591380-a195-11ea-8183-d2090e8f8888.jpg"/></p><br/>
 <p align="center"><img src = "https://user-images.githubusercontent.com/47475949/83267211-43a2ce00-a19a-11ea-8dd7-ec35aa38203b.jpeg"</p>
 
+:computer: [Pagina do Facebook](https://www.facebook.com/etec.pedroferreiraalves.1) 
+
 ### Turma Eminfo (2018)
 
 ###  1° Ano - 2018
