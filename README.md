@@ -7,17 +7,16 @@
 ### Turma Eminfo (2018)
 
 ## Indice  ℹ
-- [1° ANO](#1-ano---2018)
-- [2° ANO](#2-ano---2019)
-- [3° ANO](#3-ano---2020---até-então)
-- [TCC](https://github.com/Ruh-Marcondes/TCC) 
+:stars: [1° ANO](#1-ano---2018)
+:stars: [2° ANO](#2-ano---2019)
+:stars: [3° ANO](#3-ano---2020---até-então)
+:stars: [TCC](https://github.com/Ruh-Marcondes/TCC) 
 
 ###  1° Ano - 2018
 
 > Status Cocluido :battery:
 
 :computer: [1° Ano_Site - Sites Desenvolvidos no primeiro ano](https://github.com/Ruh-Marcondes/Etec/tree/master/1°%20Ano_Site)
-
 
 :computer: <i>[OSA (OPERAÇÃO DE SOFTWARE APLICATIVO)](https://github.com/Ruh-Marcondes/Etec/tree/master/OSA)</i>
 
