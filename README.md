@@ -7,8 +7,8 @@
 ### Turma Eminfo (2018)
 
 ## Indice  ℹ
-- [1° ANO](#-1°-ano---2018)
-- [2° ANO](#-2°-ano---2019)
+- [1° ANO](#1-ano---2018)
+- [2° ANO](#2-ano---2019)
 - [3° ANO](#3-ano---2020---até-então)
 - [TCC](https://github.com/Ruh-Marcondes/TCC) 
 
