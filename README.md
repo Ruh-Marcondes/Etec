@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://user-images.githubusercontent.com/47475949/83263593-40591380-a195-11ea-8183-d2090e8f8888.jpg"/><br/>
+<p align="center"><img src="https://user-images.githubusercontent.com/47475949/83263593-40591380-a195-11ea-8183-d2090e8f8888.jpg"/><<hr>
 <img src = "https://user-images.githubusercontent.com/47475949/83267211-43a2ce00-a19a-11ea-8dd7-ec35aa38203b.jpeg"/></p>
 
 :computer: [Pagina do Facebook](https://www.facebook.com/etec.pedroferreiraalves.1) 
@@ -7,10 +7,10 @@
 ### Turma Eminfo (2018)
 
 ## Indice  ℹ
-:stars: [1° ANO](#1-ano---2018)
-:stars: [2° ANO](#2-ano---2019)
-:stars: [3° ANO](#3-ano---2020---até-então)
-:stars: [TCC](https://github.com/Ruh-Marcondes/TCC) 
+:stars: [1° ANO](#1-ano---2018)<br>
+:stars: [2° ANO](#2-ano---2019)<br>
+:stars: [3° ANO](#3-ano---2020---até-então)<br>
+:stars: [TCC](https://github.com/Ruh-Marcondes/TCC)<br> 
 
 ###  1° Ano - 2018
 
