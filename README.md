@@ -11,7 +11,7 @@
 
  > Status Concluido :battery:
 
-:computer: [1° Ano_Site - Sites Desenvolvidos no primeiro ano](http:/github.com/Ruh-Marcondes/)
+:computer: [1° Ano_Site - Sites Desenvolvidos no primeiro ano](https://github.com/Ruh-Marcondes/Etec/tree/master/1°%20Ano_Site)
 
 :computer: OSA (OPERAÇÃO DE SOFTWARE APLICATIVO)
 
