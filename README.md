@@ -4,9 +4,9 @@
 
 ### Turma Eminfo (2018)
 
-###  1° Ano
+###  1° Ano - 2018
 
- 
+ > Status Concluido
 
 * 1° Ano_Site - Sites Desenvolvidos no primeiro ano 
 
@@ -18,7 +18,9 @@
 
 * 1° Ano_TLBD (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS I )
 
-### 2° Ano 
+### 2° Ano  2019
+
+> Status Concluido
 
 * 2° Ano_Site - Sites Desenvolvidos no segundo ano 
 
@@ -30,4 +32,5 @@
 
 TLBD II   (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS II )
 
-### 3° Ano
+### 3° Ano 2020 - ~~até então~~
+> status: Em Progresso
