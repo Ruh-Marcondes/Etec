@@ -10,16 +10,15 @@ using System.Windows.Forms;
 
 namespace RestauranteApplication.Viewn
 {
-    public partial class frmPedidos : Form
+    public partial class Login : Form
     {
-        public frmPedidos()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void frmPedidos_Load(object sender, EventArgs e)
+        private void btn_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

@@ -48,7 +48,7 @@
             this.Lb1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Lb1.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.Lb1.Location = new System.Drawing.Point(70, 23);
+            this.Lb1.Location = new System.Drawing.Point(54, 63);
             this.Lb1.Margin = new System.Windows.Forms.Padding(3, 0, 2, 0);
             this.Lb1.Name = "Lb1";
             this.Lb1.Size = new System.Drawing.Size(53, 18);
@@ -60,7 +60,7 @@
             // 
             this.Lb2.AutoSize = true;
             this.Lb2.Font = new System.Drawing.Font("Modern No. 20", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb2.Location = new System.Drawing.Point(347, 23);
+            this.Lb2.Location = new System.Drawing.Point(331, 63);
             this.Lb2.Name = "Lb2";
             this.Lb2.Size = new System.Drawing.Size(45, 18);
             this.Lb2.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             // txtEnde
             // 
-            this.txtEnde.Location = new System.Drawing.Point(400, 47);
+            this.txtEnde.Location = new System.Drawing.Point(382, 120);
             this.txtEnde.Multiline = true;
             this.txtEnde.Name = "txtEnde";
             this.txtEnde.Size = new System.Drawing.Size(163, 44);
@@ -76,21 +76,21 @@
             // 
             // txtIdade
             // 
-            this.txtIdade.Location = new System.Drawing.Point(145, 50);
+            this.txtIdade.Location = new System.Drawing.Point(127, 123);
             this.txtIdade.Name = "txtIdade";
             this.txtIdade.Size = new System.Drawing.Size(163, 20);
             this.txtIdade.TabIndex = 5;
             // 
             // txtBCpf
             // 
-            this.txtBCpf.Location = new System.Drawing.Point(398, 21);
+            this.txtBCpf.Location = new System.Drawing.Point(382, 61);
             this.txtBCpf.Name = "txtBCpf";
             this.txtBCpf.Size = new System.Drawing.Size(163, 20);
             this.txtBCpf.TabIndex = 6;
             // 
             // txtBNome
             // 
-            this.txtBNome.Location = new System.Drawing.Point(145, 21);
+            this.txtBNome.Location = new System.Drawing.Point(129, 61);
             this.txtBNome.Name = "txtBNome";
             this.txtBNome.Size = new System.Drawing.Size(163, 20);
             this.txtBNome.TabIndex = 7;
@@ -99,7 +99,7 @@
             // 
             this.Lb3.AutoSize = true;
             this.Lb3.Font = new System.Drawing.Font("Modern No. 20", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb3.Location = new System.Drawing.Point(70, 49);
+            this.Lb3.Location = new System.Drawing.Point(52, 122);
             this.Lb3.Name = "Lb3";
             this.Lb3.Size = new System.Drawing.Size(54, 18);
             this.Lb3.TabIndex = 8;
@@ -109,7 +109,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(314, 52);
+            this.label1.Location = new System.Drawing.Point(296, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 9;
@@ -119,9 +119,9 @@
             // 
             this.btnExcluir.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExcluir.Location = new System.Drawing.Point(273, 205);
+            this.btnExcluir.Location = new System.Drawing.Point(489, 196);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(167, 54);
+            this.btnExcluir.Size = new System.Drawing.Size(146, 43);
             this.btnExcluir.TabIndex = 11;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -130,9 +130,9 @@
             // 
             this.btnAlterar.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterar.Location = new System.Drawing.Point(273, 136);
+            this.btnAlterar.Location = new System.Drawing.Point(185, 196);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(167, 54);
+            this.btnAlterar.Size = new System.Drawing.Size(146, 43);
             this.btnAlterar.TabIndex = 13;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -141,9 +141,9 @@
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvar.Location = new System.Drawing.Point(73, 205);
+            this.btnSalvar.Location = new System.Drawing.Point(337, 196);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(167, 54);
+            this.btnSalvar.Size = new System.Drawing.Size(146, 43);
             this.btnSalvar.TabIndex = 12;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -152,9 +152,9 @@
             // 
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(73, 136);
+            this.btnCadastrar.Location = new System.Drawing.Point(33, 196);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(167, 54);
+            this.btnCadastrar.Size = new System.Drawing.Size(146, 43);
             this.btnCadastrar.TabIndex = 10;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 287);
+            this.ClientSize = new System.Drawing.Size(680, 298);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnExcluir);

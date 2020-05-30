@@ -17,5 +17,9 @@ namespace RestauranteApplication.Viewn
             InitializeComponent();
         }
 
+        private void frmFuncionario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,7 +46,7 @@
             // 
             this.Descricao.AutoSize = true;
             this.Descricao.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Descricao.Location = new System.Drawing.Point(36, 42);
+            this.Descricao.Location = new System.Drawing.Point(81, 59);
             this.Descricao.Name = "Descricao";
             this.Descricao.Size = new System.Drawing.Size(89, 36);
             this.Descricao.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(319, 42);
+            this.label2.Location = new System.Drawing.Point(364, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 36);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@
             this.VagoBntRadio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.VagoBntRadio.Checked = true;
             this.VagoBntRadio.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VagoBntRadio.Location = new System.Drawing.Point(386, 51);
+            this.VagoBntRadio.Location = new System.Drawing.Point(431, 68);
             this.VagoBntRadio.Name = "VagoBntRadio";
             this.VagoBntRadio.Size = new System.Drawing.Size(63, 25);
             this.VagoBntRadio.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.novagaBtnRadio.AutoSize = true;
             this.novagaBtnRadio.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.novagaBtnRadio.Location = new System.Drawing.Point(386, 74);
+            this.novagaBtnRadio.Location = new System.Drawing.Point(431, 91);
             this.novagaBtnRadio.Name = "novagaBtnRadio";
             this.novagaBtnRadio.Size = new System.Drawing.Size(90, 25);
             this.novagaBtnRadio.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             // btncadastrar
             // 
-            this.btncadastrar.Location = new System.Drawing.Point(42, 149);
+            this.btncadastrar.Location = new System.Drawing.Point(87, 166);
             this.btncadastrar.Name = "btncadastrar";
             this.btncadastrar.Size = new System.Drawing.Size(124, 52);
             this.btncadastrar.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(172, 149);
+            this.btnCancelar.Location = new System.Drawing.Point(217, 166);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(124, 52);
             this.btnCancelar.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             // desc
             // 
-            this.desc.Location = new System.Drawing.Point(131, 35);
+            this.desc.Location = new System.Drawing.Point(176, 52);
             this.desc.Multiline = true;
             this.desc.Name = "desc";
             this.desc.Size = new System.Drawing.Size(154, 43);
@@ -117,7 +117,7 @@
             // 
             this.reservarBtnRadio.AutoSize = true;
             this.reservarBtnRadio.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reservarBtnRadio.Location = new System.Drawing.Point(386, 97);
+            this.reservarBtnRadio.Location = new System.Drawing.Point(431, 114);
             this.reservarBtnRadio.Name = "reservarBtnRadio";
             this.reservarBtnRadio.Size = new System.Drawing.Size(89, 25);
             this.reservarBtnRadio.TabIndex = 7;
@@ -127,7 +127,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(302, 149);
+            this.button3.Location = new System.Drawing.Point(347, 166);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 52);
             this.button3.TabIndex = 8;
@@ -136,7 +136,7 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(432, 149);
+            this.btnAlterar.Location = new System.Drawing.Point(477, 166);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(124, 52);
             this.btnAlterar.TabIndex = 9;
@@ -147,7 +147,7 @@
             // 
             this.Num.AutoSize = true;
             this.Num.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num.Location = new System.Drawing.Point(38, 101);
+            this.Num.Location = new System.Drawing.Point(83, 118);
             this.Num.Name = "Num";
             this.Num.Size = new System.Drawing.Size(68, 21);
             this.Num.TabIndex = 10;
@@ -155,7 +155,7 @@
             // 
             // boxNumero
             // 
-            this.boxNumero.Location = new System.Drawing.Point(131, 101);
+            this.boxNumero.Location = new System.Drawing.Point(176, 118);
             this.boxNumero.Name = "boxNumero";
             this.boxNumero.Size = new System.Drawing.Size(100, 20);
             this.boxNumero.TabIndex = 11;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 259);
+            this.ClientSize = new System.Drawing.Size(680, 298);
             this.Controls.Add(this.boxNumero);
             this.Controls.Add(this.Num);
             this.Controls.Add(this.btnAlterar);
