@@ -21,7 +21,7 @@
 
 :computer: [IMC (INSTALAÇÃO E MANUTENÇÃO DE COMPUTADORES)](https://github.com/Ruh-Marcondes/Etec/tree/master/IMC)
 
-:desktop_computer: [Java (Inclui - LP (Lógica de Programação))](https://github.com/RuhMarcondes/Etec/tree/master/Java/Primeirão)
+:desktop_computer: [Java (Inclui - LP (Lógica de Programação))](https://github.com/Ruh-Marcondes/Etec/tree/master/Java/Primeirão)
 
 :floppy_disk:	[1° Ano_TLBD (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS I )](https://github.com/Ruh-Marcondes/Etec/tree/master/1°%20Ano_TLBD)
 
