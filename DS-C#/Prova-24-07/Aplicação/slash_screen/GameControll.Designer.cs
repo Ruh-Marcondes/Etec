@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameControll));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btn_Close = new System.Windows.Forms.PictureBox();
             this.btn_Maximaze = new System.Windows.Forms.PictureBox();
             this.BTN_minimaze = new System.Windows.Forms.PictureBox();
@@ -180,35 +180,35 @@
             this.DataGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
             this.DataGrid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(84)))), ((int)(((byte)(116)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.GrayText;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(84)))), ((int)(((byte)(116)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.GrayText;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.DataGrid.EnableHeadersVisualStyles = false;
             this.DataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(106)))), ((int)(((byte)(142)))));
             this.DataGrid.Location = new System.Drawing.Point(3, 302);
             this.DataGrid.Name = "DataGrid";
             this.DataGrid.ReadOnly = true;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(123)))), ((int)(((byte)(197)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.InfoText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(84)))), ((int)(((byte)(116)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.InfoText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGrid.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(123)))), ((int)(((byte)(197)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.InfoText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(84)))), ((int)(((byte)(116)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.InfoText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGrid.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.DataGrid.Size = new System.Drawing.Size(868, 293);
             this.DataGrid.TabIndex = 0;
             this.DataGrid.DoubleClick += new System.EventHandler(this.DataGrid_DoubleClick);
@@ -243,7 +243,7 @@
             // 
             this.txt_Genero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(173)))), ((int)(((byte)(205)))));
             this.txt_Genero.Enabled = false;
-            this.txt_Genero.ForeColor = System.Drawing.SystemColors.Window;
+            this.txt_Genero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.txt_Genero.Location = new System.Drawing.Point(168, 187);
             this.txt_Genero.Multiline = true;
             this.txt_Genero.Name = "txt_Genero";
@@ -253,11 +253,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(69, 207);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 21);
+            this.label7.Size = new System.Drawing.Size(78, 20);
             this.label7.TabIndex = 23;
             this.label7.Text = "Gêneros\r\n";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -266,7 +266,7 @@
             // 
             this.txt_Modes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(173)))), ((int)(((byte)(205)))));
             this.txt_Modes.Enabled = false;
-            this.txt_Modes.ForeColor = System.Drawing.SystemColors.Window;
+            this.txt_Modes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.txt_Modes.Location = new System.Drawing.Point(168, 156);
             this.txt_Modes.Name = "txt_Modes";
             this.txt_Modes.Size = new System.Drawing.Size(358, 20);
@@ -275,11 +275,11 @@
             // Generos
             // 
             this.Generos.AutoSize = true;
-            this.Generos.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.Generos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Generos.Location = new System.Drawing.Point(69, 155);
             this.Generos.Name = "Generos";
-            this.Generos.Size = new System.Drawing.Size(59, 21);
+            this.Generos.Size = new System.Drawing.Size(62, 20);
             this.Generos.TabIndex = 21;
             this.Generos.Text = "Modes";
             this.Generos.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -287,11 +287,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(573, 84);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 42);
+            this.label6.Size = new System.Drawing.Size(120, 40);
             this.label6.TabIndex = 19;
             this.label6.Text = "Classificação \r\nIndicativa:\r\n";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -300,7 +300,7 @@
             // 
             this.txt_Indica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(173)))), ((int)(((byte)(205)))));
             this.txt_Indica.Enabled = false;
-            this.txt_Indica.ForeColor = System.Drawing.SystemColors.Window;
+            this.txt_Indica.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.txt_Indica.Location = new System.Drawing.Point(693, 106);
             this.txt_Indica.Name = "txt_Indica";
             this.txt_Indica.Size = new System.Drawing.Size(100, 20);
@@ -311,7 +311,7 @@
             this.txt_Plataforms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(173)))), ((int)(((byte)(205)))));
             this.txt_Plataforms.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.txt_Plataforms.Enabled = false;
-            this.txt_Plataforms.ForeColor = System.Drawing.SystemColors.Window;
+            this.txt_Plataforms.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.txt_Plataforms.Location = new System.Drawing.Point(168, 85);
             this.txt_Plataforms.Multiline = true;
             this.txt_Plataforms.Name = "txt_Plataforms";
@@ -321,11 +321,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(42, 71);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 63);
+            this.label5.Size = new System.Drawing.Size(105, 60);
             this.label5.TabIndex = 17;
             this.label5.Text = "Plataformas\r\nDisponivel:\r\n\r\n";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -335,7 +335,7 @@
             this.lb_Cod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(107)))), ((int)(((byte)(165)))));
             this.lb_Cod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lb_Cod.Font = new System.Drawing.Font("Sitka Text", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Cod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(206)))), ((int)(((byte)(234)))));
+            this.lb_Cod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.lb_Cod.Location = new System.Drawing.Point(689, 35);
             this.lb_Cod.Name = "lb_Cod";
             this.lb_Cod.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -346,11 +346,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(610, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 21);
+            this.label4.Size = new System.Drawing.Size(70, 20);
             this.label4.TabIndex = 16;
             this.label4.Text = "Codigo:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -358,11 +358,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Mincho Demibold", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(81, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 21);
+            this.label3.Size = new System.Drawing.Size(53, 20);
             this.label3.TabIndex = 12;
             this.label3.Text = "Jogo:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -372,7 +372,7 @@
             this.TXT_jogo.AllowDrop = true;
             this.TXT_jogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(173)))), ((int)(((byte)(205)))));
             this.TXT_jogo.Enabled = false;
-            this.TXT_jogo.ForeColor = System.Drawing.SystemColors.Window;
+            this.TXT_jogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(24)))), ((int)(((byte)(214)))));
             this.TXT_jogo.Location = new System.Drawing.Point(168, 46);
             this.TXT_jogo.Name = "TXT_jogo";
             this.TXT_jogo.Size = new System.Drawing.Size(358, 20);

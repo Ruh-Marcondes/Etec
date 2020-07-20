@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace slash_screen
 {
-   public enum Menu
+   public enum OPERACAO
     {
         NOVO,
         EDITAR
     }
     public partial class GameControll : Form
     {
-        public Menu opc;
+        public  OPERACAO opc;
         public GameControll()
         {
             InitializeComponent();
@@ -64,8 +64,8 @@ namespace slash_screen
         private void carregarDados()
         {
             DataGrid.DataSource = null;
-            var bd = new gamebdEntities();
-            var listagames = (from games in bd.jogos select games).ToList();
+            var db = new gamebdEntities();
+            var listagames = (from games in db.jogos select games).ToList();
             DataGrid.DataSource = listagames;
         }
 
@@ -211,11 +211,58 @@ namespace slash_screen
 
         private void btn_Salvar_Click(object sender, EventArgs e)
         {
+            //Verificar se TXT tem conteudo
+            foreach (Control x in Panelobj.Controls)
+            {
+                if (x is TextBox)
+                {
+                    TextBox tx = (TextBox)x;
+
+                    bool isNull = String.IsNullOrEmpty(tx.Text);
+                    if (isNull)
+                    {
+                        MessageBox.Show("Preencha todos os campos");
+                       return;
+                    }
+                    
+                }
+            }
+
+            var db = new gamebdEntities();
+            jogos objJogo = new jogos();
+            if (this.opc == OPERACAO.NOVO)
+            {
+                //MessageBox.Show("Novo Registro");
+                objJogo = db.jogos.Create();
+            }
+            else
+            {
+                // MessageBox.Show("Editar Registro");
+                objJogo = db.jogos.Find(int.Parse(lb_Cod.Text));
+            }
+            objJogo.Nome = TXT_jogo.Text;
+            objJogo.Plataforms = txt_Plataforms.Text;
+            objJogo.Generos = txt_Genero.Text;
+            objJogo.ClassificacaoIndicativa = txt_Indica.Text;
+
+            if (this.opc == OPERACAO.NOVO){
+                db.jogos.Add(objJogo);
+            }else{
+                db.Entry(objJogo).CurrentValues.SetValues(objJogo); 
+            }
+             db.SaveChanges();
+             MotrarMSSalvo();
+            Limpar_Texts();
+            carregarDados();
+            travarObj(Panelobj); 
+        }
+
+        public void MotrarMSSalvo()
+        {
             Picture_Check.Visible = true;
             Label_Alerta.Visible = true;
             travarObj(Panelobj);
         }
-
         private void NotVisibleMore()
         {
             Picture_Check.Visible = false;
@@ -229,7 +276,9 @@ namespace slash_screen
         public void NovoRegistro()
         {
             NotVisibleMore();
+            this.opc = OPERACAO.NOVO;
             Limpar_Texts();
+            lb_Cod.Text = " ";
             destravarObj(Panelobj);
         }
 
@@ -246,6 +295,7 @@ namespace slash_screen
         private void EditarRegistro()
         {
             NotVisibleMore();
+            this.opc = OPERACAO.EDITAR;
             destravarObj(Panelobj);
         }
 
@@ -256,7 +306,9 @@ namespace slash_screen
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
+            
             Limpar_Texts();
+            travarObj(Panelobj);
         }
 
         private void Limpar_Texts()
@@ -268,7 +320,7 @@ namespace slash_screen
                     TextBox tx = (TextBox)x;
                     tx.Text = "";
                 }
-                if(x is La)
+                
             }
         }
 
