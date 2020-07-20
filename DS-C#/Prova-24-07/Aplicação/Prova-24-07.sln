@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "slash_screen\GUI.csproj", "{750FB51C-C33E-4280-ACD9-43826A97C6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbGame", "dbGame\dbGame.csproj", "{95241F36-5DAE-46C8-B2F2-302BC8BD1DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750FB51C-C33E-4280-ACD9-43826A97C6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750FB51C-C33E-4280-ACD9-43826A97C6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750FB51C-C33E-4280-ACD9-43826A97C6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750FB51C-C33E-4280-ACD9-43826A97C6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95241F36-5DAE-46C8-B2F2-302BC8BD1DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95241F36-5DAE-46C8-B2F2-302BC8BD1DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95241F36-5DAE-46C8-B2F2-302BC8BD1DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95241F36-5DAE-46C8-B2F2-302BC8BD1DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
