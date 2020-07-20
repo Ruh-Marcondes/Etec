@@ -12,6 +12,9 @@
     <li> 👩‍💻Lucia Motta </li>
     <li> 👩‍💻Ruahma Marcondes</li>
 </ul>
+<hr/>
 
 ## Projeto 📽
 <p> Programa, na qual cadatras vídeo games</p>
+
+<hr/>
