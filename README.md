@@ -41,3 +41,7 @@
 
 ### 3° Ano - 2020 - ~~até então~~ 
 > status: Em Progresso :electric_plug:
+💻[Programação de Computadores]()
+
+
+[![Run on Repl.it](https://repl.it/badge/github/Ruh-Marcondes/Etec)](https://repl.it/github/Ruh-Marcondes/Etec)
