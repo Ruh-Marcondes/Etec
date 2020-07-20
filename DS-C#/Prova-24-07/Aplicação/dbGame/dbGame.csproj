@@ -50,33 +50,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="jogos.cs">
-      <DependentUpon>ModelGame.tt</DependentUpon>
+      <DependentUpon>ModelGames.tt</DependentUpon>
     </Compile>
-    <Compile Include="ModelGame.Context.cs">
+    <Compile Include="ModelGames.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelGame.Context.tt</DependentUpon>
+      <DependentUpon>ModelGames.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ModelGame.cs">
+    <Compile Include="ModelGames.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelGame.tt</DependentUpon>
+      <DependentUpon>ModelGames.tt</DependentUpon>
     </Compile>
-    <Compile Include="ModelGame.Designer.cs">
+    <Compile Include="ModelGames.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelGame.edmx</DependentUpon>
+      <DependentUpon>ModelGames.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="ModelGame.edmx">
+    <EntityDeploy Include="ModelGames.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelGame.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelGames.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ModelGame.edmx.diagram">
-      <DependentUpon>ModelGame.edmx</DependentUpon>
+    <None Include="ModelGames.edmx.diagram">
+      <DependentUpon>ModelGames.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -84,15 +84,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ModelGame.Context.tt">
+    <Content Include="ModelGames.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelGame.edmx</DependentUpon>
-      <LastGenOutput>ModelGame.Context.cs</LastGenOutput>
+      <DependentUpon>ModelGames.edmx</DependentUpon>
+      <LastGenOutput>ModelGames.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="ModelGame.tt">
+    <Content Include="ModelGames.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelGame.edmx</DependentUpon>
-      <LastGenOutput>ModelGame.cs</LastGenOutput>
+      <DependentUpon>ModelGames.edmx</DependentUpon>
+      <LastGenOutput>ModelGames.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
