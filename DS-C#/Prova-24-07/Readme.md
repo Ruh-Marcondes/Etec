@@ -5,21 +5,20 @@
 <hr/>
 
 ### ℹ Integrantes do grupo 
-<ul>
-    <li> 👩‍💻Deborah Lima</li>
-    <li> 👩‍💻Emily Janini </li>
-    <li> 👩‍💻Julia Piovesani </li>
-    <li> 👩‍💻Lucia Motta </li>
-    <li> 👩‍💻Ruahma Marcondes</li>
-</ul>
+
+    👩‍💻Deborah Lima
+    👩‍💻Emily Janini 
+    👩‍💻Julia Piovesani 
+    👩‍💻Lucia Motta 
+    👩‍💻Ruahma Marcondes
+    
 <hr/>
 
 ## Projeto 📽
 <p> Programa, na qual cadatras vídeo games</p>
 
 ## Tecnologias usadas 🌠
-<ul>
- <li>🌠 [Figma](https://www.figma.com/)</li>
- <li>🌠 [Visual Studio](https://visualstudio.microsoft.com/pt-br/)</li>
-</ul>
+
+ 🌠 [Figma](https://www.figma.com/)<br/>
+ 🌠 [Visual Studio](https://visualstudio.microsoft.com/pt-br/)<br/>
 <hr/>
