@@ -8,5 +8,13 @@ public class Exercicio4 {
 
         int[] recebernum = new int[10];
         Scanner sc = new Scanner(System.in);
+
+        System.out.println(" Digite 10 numeros: ");
+        for (int i = 0; i < recebernum.length; i++) {
+            recebernum[i] = Integer.parseInt(sc.nextLine());
+        }
+        for (int i = 0; i < recebernum.length; i++) {
+            
+        }
     }
 }
