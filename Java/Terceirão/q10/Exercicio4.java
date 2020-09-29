@@ -14,7 +14,19 @@ public class Exercicio4 {
             recebernum[i] = Integer.parseInt(sc.nextLine());
         }
         for (int i = 0; i < recebernum.length; i++) {
-            
+            if(recebernum[i] %2 == 0) {
+                recebernum[i] = 0;
+            }
+        }
+        for (int i = 0; i < recebernum.length; i++) {
+            if(recebernum[i] %2 != 0) {
+                recebernum[i] = 1;
+            }
+        }
+
+        for (int i = 0; i < recebernum.length; i++) {
+            System.out.println(recebernum[i]);
         }
     }
 }
+
