@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Quiz Steven Universo",
+    "slug": "stevenbyruh",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF5E6D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.marcodesruahma.StevenQuizUniverso",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "description": "Quiz sobre Steven Universo -> da Rebecca Sugar  -> @RuahmaMarcondes."
+  }
+}
