@@ -105,23 +105,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="637" height="99" key="GridCell.Tab.0.bottom" timestamp="1601390385876">
+    <state width="637" height="98" key="GridCell.Tab.0.bottom" timestamp="1601390475769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601390385876" />
-    <state width="637" height="99" key="GridCell.Tab.0.center" timestamp="1601390385876">
+    <state width="637" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601390475769" />
+    <state width="637" height="98" key="GridCell.Tab.0.center" timestamp="1601390475768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="99" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601390385876" />
-    <state width="637" height="99" key="GridCell.Tab.0.left" timestamp="1601390385876">
+    <state width="637" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601390475768" />
+    <state width="637" height="98" key="GridCell.Tab.0.left" timestamp="1601390475767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="99" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601390385876" />
-    <state width="637" height="99" key="GridCell.Tab.0.right" timestamp="1601390385876">
+    <state width="637" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601390475767" />
+    <state width="637" height="98" key="GridCell.Tab.0.right" timestamp="1601390475768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="99" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601390385876" />
+    <state width="637" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601390475768" />
   </component>
 </project>
