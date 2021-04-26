@@ -39,9 +39,8 @@
 
 🎇 [TLBD II (TECNOLOGIAS E LINGUAGEM PARA BANCO DE DADOS II )](https://github.com/Ruh-Marcondes/Etec/tree/master/TLBD%20II)
 
-### 3° Ano - 2020 - ~~até então~~ 
+### 3° Ano - 2020  
 > status: Em Progresso :electric_plug:
-💻[Programação de Computadores]()
-
-
-[![Run on Repl.it](https://repl.it/badge/github/Ruh-Marcondes/Etec)](https://repl.it/github/Ruh-Marcondes/Etec)
+💻[Programação de Computadores]()</br>
+[![Run on Repl.it](https://repl.it/badge/github/Ruh-Marcondes/Etec)](https://repl.it/github/Ruh-Marcondes/Etec)</br>
+☆*: [T.C.C](https://github.com/Ruh-Marcondes/T.C.C-Etec)</br>
